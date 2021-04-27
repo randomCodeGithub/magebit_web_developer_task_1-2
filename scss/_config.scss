@@ -1,0 +1,43 @@
+$icons-hover: (
+  "facebook": #4267b2,
+  "insta": #c13584,
+  "twitter": #1da1f2,
+  "youtube": #ff0000,
+);
+
+$icons-active: (
+  "facebook": #2f4a80,
+  "insta": #8f2762,
+  "twitter": #177fbf,
+  "youtube": #cc0000,
+);
+
+@mixin landscape {
+  @media (max-height: 412px) {
+    @content;
+  }
+}
+
+@mixin landscape-desktop($height) {
+  @media (min-width: 992px) and (max-height: #{$height}px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 767.98px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 991.98px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 992px) {
+    @content;
+  }
+}

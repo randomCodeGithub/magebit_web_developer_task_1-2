@@ -1,0 +1,228 @@
+@include landscape {
+  .subscribe {
+    height: 100% !important;
+    padding: 1rem 0;
+  }
+}
+
+@include landscape-desktop(494) {
+  .bg-image {
+    height: auto !important;
+  }
+}
+
+@include landscape-desktop(604) {
+  nav {
+    margin-top: 0;
+    margin-bottom: 14.5%;
+  }
+  .subscribe {
+    height: 100% !important;
+  }
+
+  .bg-image {
+    height: 100vh;
+  }
+}
+
+@include mobile {
+  .subscribe {
+    &__area {
+      width: 89.2% !important;
+    }
+  }
+}
+
+@include tablet {
+  .bg-image {
+    display: none;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+  nav {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    padding: 10px 20px 12px 20px;
+
+    .logo {
+      display: none;
+    }
+
+    ul {
+      font-size: 14px;
+      line-height: 24px;
+      font-style: normal;
+      font-weight: normal;
+      li {
+        margin-right: 20px;
+        margin-top: 0.2rem;
+      }
+    }
+  }
+  .subscribe {
+    justify-content: center;
+    background-image: url(../img/pineapples.png);
+    width: 100%;
+    background-size: cover;
+    background-position-x: 58%;
+    background-repeat: no-repeat;
+    margin-top: 4.2rem;
+    height: calc(100vh - 4.2rem);
+    &__area {
+      width: 461px;
+      padding: 30px 20px;
+      background-color: #fff;
+
+      form {
+        padding-bottom: 21px;
+        .input-email-area {
+          width: 100%;
+          height: 60px;
+          margin-bottom: 20px;
+
+          input[type="text"] {
+            padding-left: 15px;
+            height: 60px;
+          }
+
+          button {
+            width: 54px;
+          }
+        }
+
+        .checkbox {
+          i {
+            font-size: 10px !important;
+            margin-top: 0.1rem;
+          }
+        }
+      }
+
+      .success {
+        img {
+          margin-bottom: 39px;
+        }
+        h2 {
+          margin-bottom: 10px;
+        }
+        .description {
+          border-bottom: 1px solid #e3e3e4;
+          margin-bottom: 0;
+          padding-bottom: 39px;
+        }
+      }
+
+      .description {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .social {
+      &__block {
+        margin-right: 10px;
+        margin-top: 20px;
+
+        &:last-child {
+          margin-right: 15px !important;
+        }
+      }
+    }
+  }
+}
+
+@include desktop {
+  h2 {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 15px;
+  }
+
+  nav {
+    margin-bottom: -0.7rem;
+    .logo-mobile {
+      display: none;
+    }
+  }
+
+  .bg-image {
+    height: 100vh;
+  }
+
+  .subscribe {
+    width: 680px;
+    &__area {
+      width: 400px;
+      flex-grow: 1;
+      margin: 0 auto;
+
+      &.sended {
+        justify-content: flex-start;
+
+        #subscribe {
+          margin-top: 8.4rem;
+        }
+      }
+
+      .social {
+        &__block {
+          margin-top: 50px;
+          margin-right: 20px;
+        }
+      }
+
+      form {
+        padding-bottom: 51px;
+        .input-email-area {
+          width: 663px;
+          height: 70px;
+          margin-left: -2.5rem;
+          margin-bottom: 53px;
+
+          button {
+            width: 83px;
+            i {
+              margin-right: 1.3rem;
+            }
+          }
+
+          input[type="text"] {
+            padding-left: 40px;
+            height: 70px;
+          }
+
+          .error-messages-area {
+            margin-left: 2.5rem;
+          }
+        }
+      }
+
+      .success {
+        img {
+          margin-bottom: 30px;
+        }
+        h2 {
+          margin-bottom: 20px;
+        }
+        .description {
+          border-bottom: 1px solid #e3e3e4;
+          margin-bottom: 0;
+          padding-bottom: 50px;
+        }
+      }
+
+      .description {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
