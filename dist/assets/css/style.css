@@ -475,34 +475,42 @@ main,
 
 .subscribe__area .social__block:hover.facebook {
   background-color: #4267b2;
+  border-color: #4267b2;
 }
 
 .subscribe__area .social__block:hover.insta {
   background-color: #c13584;
+  border-color: #c13584;
 }
 
 .subscribe__area .social__block:hover.twitter {
   background-color: #1da1f2;
+  border-color: #1da1f2;
 }
 
 .subscribe__area .social__block:hover.youtube {
   background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 .subscribe__area .social__block:active.facebook {
   background-color: #2f4a80;
+  border-color: #2f4a80;
 }
 
 .subscribe__area .social__block:active.insta {
   background-color: #8f2762;
+  border-color: #8f2762;
 }
 
 .subscribe__area .social__block:active.twitter {
   background-color: #177fbf;
+  border-color: #177fbf;
 }
 
 .subscribe__area .social__block:active.youtube {
   background-color: #cc0000;
+  border-color: #cc0000;
 }
 
 .subscribe__area .description {

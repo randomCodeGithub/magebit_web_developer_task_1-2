@@ -173,6 +173,7 @@ main,
           @each $name, $color in $icons-hover {
             &.#{$name} {
               background-color: $color;
+              border-color: $color;
             }
           }
         }
@@ -181,6 +182,7 @@ main,
           @each $name, $color in $icons-active {
             &.#{$name} {
               background-color: $color;
+              border-color: $color;
             }
           }
         }
