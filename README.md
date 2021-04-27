@@ -1,5 +1,8 @@
 # Magebit (Web developer test) TASK 1-2
 
+## Visual 
+https://randomcodegithub.github.io/magebit_web_developer_task_1-2/dist/
+
 ## Installation
 
 1. Clone or download
