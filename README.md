@@ -4,7 +4,7 @@
 
 1. Clone or download
    ```git clone https://github.com/randomCodeGithub/magebit_web_developer_task_1-2.git```
-2. open 'index.html' in 'dist/';
+2. Open 'index.html' in 'dist/';
 
 ## Used technologies
 
