@@ -1,3 +1,4 @@
+//landscape mobile
 @include landscape {
   .subscribe {
     height: 100% !important;
@@ -5,12 +6,14 @@
   }
 }
 
+//landscape desktop max-height 494px
 @include landscape-desktop(494) {
   .bg-image {
     height: auto !important;
   }
 }
 
+//landscape desktop max-height 604px
 @include landscape-desktop(604) {
   nav {
     margin-top: 0;
@@ -25,6 +28,7 @@
   }
 }
 
+//MOBILE
 @include mobile {
   .subscribe {
     &__area {
@@ -33,6 +37,7 @@
   }
 }
 
+//TABLET
 @include tablet {
   .bg-image {
     display: none;
@@ -42,6 +47,8 @@
     line-height: 34px;
     margin-bottom: 10px;
   }
+
+  // NAVIGATION
   nav {
     background-color: #fff;
     width: 100%;
@@ -79,6 +86,7 @@
       padding: 30px 20px;
       background-color: #fff;
 
+      //FORM
       form {
         padding-bottom: 21px;
         .input-email-area {
@@ -104,6 +112,7 @@
         }
       }
 
+      //SUCCESS
       .success {
         img {
           margin-bottom: 39px;
@@ -125,6 +134,7 @@
       }
     }
 
+    // SOCIAL ICONS
     .social {
       &__block {
         margin-right: 10px;
@@ -138,6 +148,7 @@
   }
 }
 
+//DESKTOP
 @include desktop {
   h2 {
     font-size: 32px;
@@ -171,6 +182,7 @@
         }
       }
 
+      // SOCIAL ICONS
       .social {
         &__block {
           margin-top: 50px;
@@ -178,6 +190,7 @@
         }
       }
 
+      // FORM
       form {
         padding-bottom: 51px;
         .input-email-area {
@@ -204,6 +217,7 @@
         }
       }
 
+      //SUCCESS
       .success {
         img {
           margin-bottom: 30px;

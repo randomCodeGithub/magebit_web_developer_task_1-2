@@ -13,6 +13,7 @@
 <body>
     <main>
         <section class="subscribe">
+            <!-- NAVIGATION -->
             <nav>
                 <div class="logo"><img src="./assets/img/logo_pineapple.svg" alt=""></div>
                 <div class="logo-mobile"><img src="./assets/img/mobile-logo.svg" alt=""></div>
@@ -28,24 +29,26 @@
                     </li>
                 </ul>
             </nav>
-
+            <!-- SUBSCRIBE AREA -->
             <div class="subscribe__area">
                 <div id="subscribe">
                     <h2>Subscribe to newsletter</h2>
                     <p class="description">Subscribe to our newsletter and get 10% discount on pineapple glasses.</p>
+                    <!-- FORM -->
                     <form id="subscription" action="#" onsubmit="return validate()" name="subscribe">
                         <div class="input-email-area" style="position: relative;">
                             <input id="subscriber-email" type="text" name="email"
                                 placeholder="Type your email address here…">
                             <button id="send-email" type="submit"><i class="icon-arrow-right"></i></button>
 
+                            <!-- ERROR MESSAGES BLOCK -->
                             <div class="error-messages-area">
                                 <div id="email-errors"></div>
                                 <div id="check-box-error"></div>
                             </div>
                         </div>
 
-
+                        <!-- CHECKBOX BLOCK -->
                         <div class="checkbox">
                             <label>
                                 <input id="terms" type="checkbox" name="terms" value="">
@@ -57,6 +60,7 @@
                         </div>
 
                     </form>
+                    <!-- SOICAL BLOCK -->
                     <div class="social">
 
                         <a href="#" class="social__block facebook">
@@ -75,6 +79,7 @@
                 </div>
             </div>
         </section>
+        <!-- BACKGROUND IMAGE -->
         <div class="bg-image"></div>
     </main>
     <script src="./assets/js/script.js"></script>

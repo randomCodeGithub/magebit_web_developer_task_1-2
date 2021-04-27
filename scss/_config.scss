@@ -1,3 +1,6 @@
+// SOCIAL ICON names and colors
+
+// on hover
 $icons-hover: (
   "facebook": #4267b2,
   "insta": #c13584,
@@ -5,6 +8,7 @@ $icons-hover: (
   "youtube": #ff0000,
 );
 
+// on active
 $icons-active: (
   "facebook": #2f4a80,
   "insta": #8f2762,
@@ -12,12 +16,14 @@ $icons-active: (
   "youtube": #cc0000,
 );
 
+//mobile landscape
 @mixin landscape {
   @media (max-height: 412px) {
     @content;
   }
 }
 
+//desktop landscape
 @mixin landscape-desktop($height) {
   @media (min-width: 992px) and (max-height: #{$height}px) {
     @content;
