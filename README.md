@@ -3,7 +3,7 @@
 ## Installation
 
 2. Clone or download.
-```git clone https://github.com/randomCodeGithub/magebit_web_developer_task_3.git```
+```git clone https://github.com/randomCodeGithub/magebit_web_developer_task_1-2.git```
 
 ## Used technologies
 
